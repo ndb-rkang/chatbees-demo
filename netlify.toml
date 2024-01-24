@@ -1,9 +1,12 @@
-# Set the integraton "name" to your integration's slug.
+[build]
+  command = "npm run build"
+  publish = ".next"
+
 [[integrations]]
   name = "netlify-plugin-chatbees"
 
 [integrations.dev]
   # Set the "path" as the path from your test site to your integration's build folder.
-  path = "/Users/rkang/Nautilus/netlify-plugin-chatbees"
+  path = "../netlify-plugin-chatbees"
   # The following forces the integration to be used when building the test site.
   force_run_in_build = true
