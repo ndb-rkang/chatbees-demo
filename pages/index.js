@@ -11,8 +11,8 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header title="Welcome to my app! This app is just updated" />
-        <p className="description">
+        <Header title="Welcome to chatbees + netlify integration demo!"/>
+        <p className="Start chatting with chatbees by interacting with the ">
           Get started by editing <code>pages/index.js</code>
         </p>
       </main>
