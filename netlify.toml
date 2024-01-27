@@ -10,3 +10,9 @@
   path = "../netlify-plugin-chatbees"
   # The following forces the integration to be used when building the test site.
   force_run_in_build = true
+
+[[redirects]]
+  from = "/_next/static/*"
+  to = "/static/:splat"
+  status = 301
+  force = true
